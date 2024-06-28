@@ -1,0 +1,24 @@
+{
+  "title": "PDF Viewer",
+  "description": "PDF Viewer",
+  "majorVersion": 1,
+  "minorVersion": 0,
+  "patchVersion": 0,
+  "runnable": 1,
+  "author": "Joubel",
+  "license": "MIT",
+  "machineName": "H5P.PdfViewer",
+  "embedTypes": [
+    "iframe"
+  ],
+  "preloadedJs": [
+    {
+      "path": "dist/pdf-viewer.js"
+    }
+  ],
+  "preloadedCss": [
+    {
+      "path": "dist/pdf-viewer.css"
+    }
+  ]
+}
